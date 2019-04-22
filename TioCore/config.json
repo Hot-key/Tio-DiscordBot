@@ -1,0 +1,17 @@
+﻿{
+  "RunUrl": "https://tio.run/cgi-bin/run/api/no-cache/",
+  "TestPath": "HelloWorldTests",
+  "TrimWhitespacesFromResults": true,
+  "DisplayDebugInfoOnError": true,
+  "DisplayDebugInfoOnSuccess": false,
+  "UseConsoleCodes": true,
+  "CheckUrl": "https://tryitonline.net/languages.json",
+  "Retries": 3,
+  "LocalRun": false,
+  "LocalRoot": "/srv",
+  "LocalProcess": null,
+  "ArenaHost": null,
+  "BatchMode": true,
+  "Quiet": false,
+  "DebugDump": null      
+}
