@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Discord.WebSocket;
 
@@ -11,8 +12,10 @@ namespace TioCompiler.Discord.Function
     {
         public Tio()
         {
-            msg["--tio"] = (message, list) =>
+            msg["--tio"] = async (message, list) =>
             {
+                Console.WriteLine("asd2");
+                await Task.Delay(2000);
                 Console.WriteLine("asd");
             };
         }

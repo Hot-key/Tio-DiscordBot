@@ -10,7 +10,7 @@ namespace TioCompiler
 {
     class Define
     {
-        public static string DiscordBotToken = "";
+        public static string DiscordBotToken = "NDkyMTM0MjI1MzExNTYzNzg2.XYyjrQ.QujKSGw26fdpWiM-bc1ccivNOgE";
         public static Dictionary<SocketUser,User> userList = new Dictionary<SocketUser, User>();
         public static Dictionary<SocketUser, User> tioRunList = new Dictionary<SocketUser, User>();
     }

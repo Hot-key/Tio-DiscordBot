@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TioCompiler", "TioCompiler\TioCompiler.csproj", "{239B244E-DF34-43BF-988A-D745D5272D6C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TioCore", "TioCore\TioCore.csproj", "{53757776-4E28-49B9-9744-1A1E9ACF1904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TioCore", "TioCore\TioCore.csproj", "{53757776-4E28-49B9-9744-1A1E9ACF1904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{239B244E-DF34-43BF-988A-D745D5272D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{239B244E-DF34-43BF-988A-D745D5272D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{239B244E-DF34-43BF-988A-D745D5272D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{239B244E-DF34-43BF-988A-D745D5272D6C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{53757776-4E28-49B9-9744-1A1E9ACF1904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{53757776-4E28-49B9-9744-1A1E9ACF1904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53757776-4E28-49B9-9744-1A1E9ACF1904}.Release|Any CPU.ActiveCfg = Release|Any CPU

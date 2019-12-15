@@ -59,10 +59,8 @@ namespace TioCompiler.Tio
             };
 
             return $"Output : \r\n" +
-                   $"\r\n" +
                    $"```{p.Output} ```\r\n" +
                    $"Debug : \r\n" +
-                   $"\r\n" +
                    $"```{p.Debug}```";
         }
     }
